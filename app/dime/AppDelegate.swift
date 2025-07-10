@@ -19,7 +19,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         return sceneConfiguration
     }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        Instabug.start(withToken: "cdeff356910e699a1410eb46f2e3821d", invocationEvents: [.floatingButton, .shake, .screenshot])
+        Instabug.start(withToken: "AppToken", invocationEvents: [.floatingButton, .shake, .screenshot])
         return true
     }
 }
