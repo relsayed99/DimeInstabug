@@ -1,5 +1,5 @@
 {
-  "originHash" : "ae8559a74005595848c7f375a437bfb1a9b6e513a1e16ca5be5d648d5d854e5e",
+  "originHash" : "19dc9056977e7a0a9710bc7e308e601f9f6442413399a8a81b8c4ba38a812318",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -35,6 +35,15 @@
       "state" : {
         "revision" : "70ae8691bdfb62698571e69bd855acf4030795ea",
         "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "instabug-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Instabug/Instabug-SP",
+      "state" : {
+        "revision" : "ffcac93cb9e62af080889eaa4c291d289bf0fe22",
+        "version" : "15.1.1"
       }
     },
     {

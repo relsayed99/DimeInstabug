@@ -148,6 +148,8 @@
 		53E832E72B0B067B000CBBA0 /* TransactionCategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E832E62B0B067B000CBBA0 /* TransactionCategoryPicker.swift */; };
 		53EB930E28A65A570026BE28 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327D2B5287C6AFB00F76ADF /* Color.swift */; };
 		53EB930F28A65B250026BE28 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1D1A4289383B100E28062 /* FontExtension.swift */; };
+		5FD4CB292E1FC8D200EF1E32 /* Instabug in Frameworks */ = {isa = PBXBuildFile; productRef = 5FD4CB282E1FC8D200EF1E32 /* Instabug */; };
+		5FD4CB2B2E1FCA0C00EF1E32 /* Instabug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FD4CB2A2E1FCA0C00EF1E32 /* Instabug.plist */; };
 		AE5B3D792AEE99E000AB364E /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B3D782AEE99E000AB364E /* NumberPad.swift */; };
 		AEADEF6F2AE94DA3006EB614 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF6E2AE94DA3006EB614 /* Toast.swift */; };
 		AEADEF712AE94DA8006EB614 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF702AE94DA8006EB614 /* BackButton.swift */; };
@@ -325,6 +327,7 @@
 		53E832E42B0A2CAF000CBBA0 /* InsightsSummaryBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsSummaryBlock.swift; sourceTree = "<group>"; };
 		53E832E62B0B067B000CBBA0 /* TransactionCategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryPicker.swift; sourceTree = "<group>"; };
 		53EB931028A65F670026BE28 /* ExpenditureWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExpenditureWidgetExtension.entitlements; sourceTree = "<group>"; };
+		5FD4CB2A2E1FCA0C00EF1E32 /* Instabug.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Instabug.plist; sourceTree = "<group>"; };
 		AE5B3D782AEE99E000AB364E /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
 		AEADEF6E2AE94DA3006EB614 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		AEADEF702AE94DA8006EB614 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
@@ -360,6 +363,7 @@
 				D6A4DE202D61744400F7F751 /* SwiftUIIntrospect in Frameworks */,
 				53A4148028B7DA4C008C30E7 /* ConfettiSwiftUI in Frameworks */,
 				5383D85E287D9A0100D1B9BA /* CloudKit.framework in Frameworks */,
+				5FD4CB292E1FC8D200EF1E32 /* Instabug in Frameworks */,
 				53DCFAA12A498FBF0063FCDE /* CloudKitSyncMonitor in Frameworks */,
 				5327D2E6287C6CC300F76ADF /* Popovers in Frameworks */,
 				538D10752A5AB7E7008F1AFB /* IsScrolling in Frameworks */,
@@ -444,6 +448,7 @@
 				5327D2E8287C6DF700F76ADF /* dime.entitlements */,
 				5327D2E7287C6DC200F76ADF /* Info.plist */,
 				53756F622AC3C25E0065D0C2 /* sample.csv */,
+				5FD4CB2A2E1FCA0C00EF1E32 /* Instabug.plist */,
 				53A4147828B6625D008C30E7 /* AppDelegate.swift */,
 				53A4147A28B66265008C30E7 /* SceneDelegate.swift */,
 				5327D286287C697400F76ADF /* dimeApp.swift */,
@@ -733,6 +738,7 @@
 				533A38F32AA49E5900F66957 /* Alamofire */,
 				D6A4DE1F2D61744400F7F751 /* SwiftUIIntrospect */,
 				D6A4DE232D61744400F7F751 /* SwiftUIIntrospect-Static */,
+				5FD4CB282E1FC8D200EF1E32 /* Instabug */,
 			);
 			productName = dime;
 			productReference = 5327D283287C697400F76ADF /* dime.app */;
@@ -796,6 +802,7 @@
 				538D10732A5AB7E7008F1AFB /* XCRemoteSwiftPackageReference "IsScrolling" */,
 				533A38F22AA49E0100F66957 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				D6A4DE1E2D61744400F7F751 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				5FD4CB272E1FC8D200EF1E32 /* XCRemoteSwiftPackageReference "Instabug-SP" */,
 			);
 			productRefGroup = 5327D284287C697400F76ADF /* Products */;
 			projectDirPath = "";
@@ -835,6 +842,7 @@
 				5327D295287C698900F76ADF /* Assets.xcassets in Resources */,
 				53756F632AC3C25E0065D0C2 /* sample.csv in Resources */,
 				5327D2E0287C6B7D00F76ADF /* DeviceModels.json in Resources */,
+				5FD4CB2B2E1FCA0C00EF1E32 /* Instabug.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1557,6 +1565,14 @@
 				minimumVersion = 1.2.1;
 			};
 		};
+		5FD4CB272E1FC8D200EF1E32 /* XCRemoteSwiftPackageReference "Instabug-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Instabug/Instabug-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.1.1;
+			};
+		};
 		D6A4DE1E2D61744400F7F751 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
@@ -1597,6 +1613,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 53DCFA9F2A498FBF0063FCDE /* XCRemoteSwiftPackageReference "CloudKitSyncMonitor" */;
 			productName = CloudKitSyncMonitor;
+		};
+		5FD4CB282E1FC8D200EF1E32 /* Instabug */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FD4CB272E1FC8D200EF1E32 /* XCRemoteSwiftPackageReference "Instabug-SP" */;
+			productName = Instabug;
 		};
 		D6A4DE1F2D61744400F7F751 /* SwiftUIIntrospect */ = {
 			isa = XCSwiftPackageProductDependency;
